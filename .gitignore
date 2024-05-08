@@ -6,11 +6,17 @@ target/
 build/
 prebuilds/
 node_modules/
+*.tgz
 
 # Swift artifacts
 .build/
 
+# Go artifacts
+go.sum
+_obj/
+
 # Python artifacts
+.venv/
 dist/
 *.egg-info
 *.whl
@@ -23,7 +29,7 @@ dist/
 *.dll
 *.pc
 
-# Examples
+# Example dirs
 /examples/*/
 
 # Grammar volatiles
